@@ -1,0 +1,18 @@
+.big-banner{
+    background-image: url('../images/mbak.jpg');
+    background-size: 100%;
+}
+
+.fresh-content{
+    background: linear-gradient(-45deg,#FDC661,#977821);
+}
+
+.no-mp{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mid{
+    text-anchor: middle;
+}
+
