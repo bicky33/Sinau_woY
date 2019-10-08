@@ -1,6 +1,7 @@
 .big-banner{
-    background-image: url('../images/mbak.jpg');
+    background-image: url('../images/background.jpg');
     background-size: 100%;
+    background-position: center;
 }
 
 .fresh-content{
