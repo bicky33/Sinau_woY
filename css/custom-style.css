@@ -14,6 +14,13 @@
 }
 
 .mid{
-    text-anchor: middle;
+    text-anchor: middle !important;
 }
 
+.l{
+	text-align: left !important;
+}
+
+.r{
+	text-align: right !important;
+}

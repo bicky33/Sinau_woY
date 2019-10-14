@@ -11,12 +11,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/signin.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   </head>
 
   <body class="text-center">
     <div class="container" style="max-width: 800px">
       <div class="row justify-content-center">
-        <ul class="list-unstyled components" style="margin-top: 50px">
+        <ul class="list-unstyled components">
           <li>
             <img src="images/logo.png" style="width: 150px;">
           </li>
@@ -41,6 +43,21 @@
       </div> -->
           <button class="btn btn-lg btn-primary btn-block form-control" type="submit">Masuk</button>
           <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p> -->
+          <h1 class="h5 font-weight-normal">atau</h1>
+          <a class="btn btn-block btn-social btn-google py-1" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);" style="color: white"><i class="fa fa-google"></i>Sign in with Google</a>
+          <a class="btn btn-block btn-social btn-facebook py-1" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-md']);" style="color: white"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
+          <hr>
+          <p style="text-align: left;"><a href="#">Lupa password?</a><br>atau belum punya akun?</p>
+          <p>Daftar sebagai...</p>
+          <div class="row">
+            <div class="col">
+              <a class="nav-link btn btn-primary" href="#">Pelajar</a>
+            </div>
+            <div class="col">
+              <a class="nav-link btn btn-warning" href="#">Pengajar</a>
+            </div>
+          </div>
+
         </form>
       </div>
 
