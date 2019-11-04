@@ -1,3 +1,6 @@
+<?
+    require_once "_config/config.php"
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,7 +29,7 @@
 
         <!-- Right side -->
         <form class="form-inline">
-          <a class="nav-link btn btn-outline-dark" href="login.html" style="margin-right: 10px">Masuk</a>
+          <a class="nav-link btn btn-outline-dark" href="<?=base_url('auth/login.php')?>" style="margin-right: 10px">Masuk</a>
           <a class="nav-link btn btn-danger" href="#">Daftar</a>
         </form>
           
